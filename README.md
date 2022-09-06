@@ -1,5 +1,5 @@
 # Flutuador-V0
-
+```
 Diretivas de compilação:
 [env:esp32doit-devkit-v1]
 platform = espressif32
@@ -22,3 +22,4 @@ build_flags =
     -D LMIC_LORAWAN_SPEC_VERSION=LMIC_LORAWAN_SPEC_VERSION_1_0_3
     -D LMIC_PRINTF_TO=Serial    
     -D LMIC_ENABLE_arbitrary_clock_error=1
+```
